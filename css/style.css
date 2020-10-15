@@ -8,6 +8,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    min-width: 1110;
+    background-color: rgb(105, 103, 204);
+}
+
+.none {
+    display: none !important;
+}
+
+/* Header */
+
 .header {
     display: flex;
     position: relative;
@@ -46,4 +57,10 @@ body {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+/* Portfolio */
+
+.portfolio {
+
 }
